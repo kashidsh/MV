@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "cf30e61c-c01c-4980-ae4c-d7f6660eefc1"
+        },
+        "name": {
+            "value": "mvcmusicstorewebapp"
+        },
+        "location": {
+            "value": "UK South"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-AIOPS-b8b8"
+        },
+        "serverFarmResourceGroup": {
+            "value": "AIOPS"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "PremiumV2"
+        },
+        "skuCode": {
+            "value": "P1v2"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "netFrameworkVersion": {
+            "value": "v4.0"
+        }
+    }
+}
